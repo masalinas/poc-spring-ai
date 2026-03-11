@@ -10,12 +10,11 @@ import org.springframework.stereotype.Service;
 @Service
 public class RedisVectorStoreService {
     private final VectorStore vectorStore;
-
+    private final int TOP_K = 5;
+    
     public RedisVectorStoreService(VectorStore vectorStore) {
         this.vectorStore = vectorStore;
     }
-	
-	final int TOP_K = 5;
 	
     public void addDocument(String document) {
         this.vectorStore.add(List.of(new Document(document)));
