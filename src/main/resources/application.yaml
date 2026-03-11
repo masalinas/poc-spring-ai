@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: poc-spring-ai
+  data:
+    redis:
+      host: localhost
+      port: 6379
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        options:
+          model: phi3:3.8b-mini-128k-instruct-q8_0
+      embedding:
+        options:
+          model: nomic-embed-text:v1.5          
+    vectorstore:
+      redis:
+        initialize-schema: true
+        index-name: custom-index
+        prefix: custom-prefix  
