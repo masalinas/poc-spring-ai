@@ -39,7 +39,7 @@ We can test our Vector Database Redis using the manager [Another Redis Desktop M
 
 ![Redis Manager](doc/images/redis-manager.png)
 
-## Test Spring AI
+## Test Spring AI
 
 We will use postman for it:
 
