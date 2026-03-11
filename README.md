@@ -29,7 +29,7 @@ Also we need a Vector Database to manage embeddings, we will use Redis. We start
 
 ```bash
 docker run -d \
-  --name redis-stack \
+  --name redis-stack-ai \
   -p 6379:6379 \
   -p 8001:8001 \
   redis/redis-stack:latest
