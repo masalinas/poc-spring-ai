@@ -1,7 +1,7 @@
 # Description
 Poc SpringBoot AI
 
-## Infrastructure
+## Infrastructure
 We need to have Ollama install with some models installed:
 
 - **LLM Model**: phi3:3.8b-mini-128k-instruct-q8_0
