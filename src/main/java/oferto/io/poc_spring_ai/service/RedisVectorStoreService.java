@@ -8,10 +8,10 @@ import org.springframework.ai.vectorstore.VectorStore;
 import org.springframework.stereotype.Service;
 
 @Service
-public class RedisVectorStoreService {
+public class RedisVectorStoreService {
     private final VectorStore vectorStore;
 
-    public RedisVectorStoreService(VectorStore vectorStore) {
+    public RedisVectorStoreService(VectorStore vectorStore) {
         this.vectorStore = vectorStore;
     }
 	
